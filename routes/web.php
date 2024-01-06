@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('test');
 });
+
+
+// Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/dashboard1', [App\Http\Controllers\DashboardController::class, 'dashboard1']);

@@ -17,3 +17,12 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+public/assets
+public/css
+public/img
+public/js
+public/scss
+public/vendor
+
+
+

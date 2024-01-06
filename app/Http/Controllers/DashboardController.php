@@ -1,17 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Routing\Controller as BaseController;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Routing\Controller as BaseController;
 
-class Controller extends BaseController
+class DashboardController extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function index()
+    public function dashboard1()
     {
-        return view('dashboard.index');
+        return view('dashboard1.dash');
     }
 }
